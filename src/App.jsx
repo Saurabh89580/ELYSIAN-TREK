@@ -5,6 +5,7 @@ import {
   Navigate,
   useLocation,
 } from "react-router-dom";
+
 import Header from "./components/custom/Header.jsx";
 import Hero from "./components/custom/Hero.jsx";
 import CreateTrip from "./components/routes/plan-a-trip/CreateTrip.jsx";
@@ -114,6 +115,7 @@ function App() {
               path="/all-trips"
               element={isAuthenticated ? <Alltrips /> : <Hero />}
             />
+
           </Routes>
         </div>
         <Footer footerRef={footerRef} />

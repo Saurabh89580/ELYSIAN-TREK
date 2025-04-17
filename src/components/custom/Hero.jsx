@@ -123,7 +123,7 @@ function Hero({ heroRef }) {
                     className="h-full hover:scale-110 duration-300"
                     loading="lazy"
                     role="presentation"
-                    fetchPriority="high"
+                    fetchpriority="high"
                   />
                 </Link>
               );
@@ -145,7 +145,7 @@ function Hero({ heroRef }) {
                     className="h-full hover:scale-110 duration-300"
                     loading="lazy"
                     role="presentation"
-                    fetchPriority="high"
+                    fetchpriority="high"
                   />
                 </Link>
               );
